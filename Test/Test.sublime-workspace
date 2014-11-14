@@ -1,0 +1,315 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"input",
+				"apex:inputField"
+			],
+			[
+				"de",
+				"Deals_Rejected__c"
+			],
+			[
+				"Con",
+				"Contact__r"
+			],
+			[
+				"lastn",
+				"lastname"
+			],
+			[
+				"lo",
+				"location	(String)"
+			],
+			[
+				"se",
+				"PUBLIC setRedirect(Boolean redirect) 	System.PageReference"
+			],
+			[
+				"cu",
+				"currentPage"
+			],
+			[
+				"stop",
+				"stopText	(String)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/pages/ApexEmployeeP.page",
+			"settings":
+			{
+				"buffer_size": 1125,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/pages/AS1_customers.page",
+			"settings":
+			{
+				"buffer_size": 1402,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"Package Control: Install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 114.0,
+		"history":
+		[
+			"Package Control: Install Package",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"exit",
+			"import urllib.request,os,hashlib;"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Samuelm/Documents/Salesforce/Test",
+		"/C/Users/Samuelm/Documents/Salesforce/Test/config",
+		"/C/Users/Samuelm/Documents/Salesforce/Test/src",
+		"/C/Users/Samuelm/Documents/Salesforce/Test/src/classes"
+	],
+	"file_history":
+	[
+		"/C/Users/Samuelm/Documents/Salesforce/Test/src/classes/MyController.cls",
+		"/C/Users/Samuelm/Documents/Salesforce/Test/src/pages/InMaintenance.page",
+		"/C/Users/Samuelm/Documents/Salesforce/Test/src/pages/myHelloWorldVF.page",
+		"/C/Users/Samuelm/Documents/Salesforce/Test/Test.sublime-settings",
+		"/C/Users/Samuelm/Documents/Salesforce/Test/src/triggers/DealsRejectedTrigger.trigger-meta.xml",
+		"/C/Users/Samuelm/Documents/Salesforce/Test/src/triggers/DealsAcceptedTrigger.trigger",
+		"/C/Users/Samuelm/Documents/Salesforce/Test/src/triggers/DealsRejectedTrigger.trigger",
+		"/C/Users/Samuelm/Documents/Salesforce/Test/src/triggers/AccountAddressTrigger.trigger",
+		"/C/Users/Samuelm/Documents/Salesforce/Test/src/classes/StringArrayTest.cls",
+		"/C/Users/Samuelm/Documents/Salesforce/Test/src/classes/AccountHandler.cls",
+		"/C/Users/Samuelm/Documents/Salesforce/Test/src/classes/TemperatureConverter.cls",
+		"/C/Users/Samuelm/Documents/Salesforce/Test/src/classes/ContactSearch.cls",
+		"/C/Users/Samuelm/Documents/Salesforce/Test/src/triggers/ClosedOpportunityTrigger.trigger",
+		"/C/Users/Samuelm/Documents/Salesforce/Test/src/classes/TemperatureConverterTest.cls",
+		"/C/Users/Samuelm/Documents/Salesforce/Test/src/classes/TestAccountDeletion.cls",
+		"/C/Users/Samuelm/Documents/Salesforce/Test/src/classes/ContactAndLeadSearch.cls",
+		"/C/Users/Samuelm/Documents/Salesforce/Test/src/classes/TestDataFactory.cls",
+		"/C/Users/Samuelm/Documents/Salesforce/Test/src/triggers/addRelatedRecord.trigger",
+		"/C/Users/Samuelm/Documents/Salesforce/Test/src/pages/AS1_customers.page",
+		"/C/Users/Samuelm/Documents/Salesforce/Test/src/pages/ApexEmployeeP.page",
+		"/C/Users/Samuelm/Desktop/test.html",
+		"/C/Users/Samuelm/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Samuelm/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Samuelm/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Samuelm/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Samuelm/Documents/Salesforce/Test/src/pages/VF_Page.page",
+		"/C/Users/Samuelm/Documents/Salesforce/Test/src/triggers/DuplicateCustomers.trigger",
+		"/C/Users/Samuelm/Documents/Salesforce/Test/src/triggers/DuplicateCustomers.trigger-meta.xml",
+		"/C/Users/Samuelm/Documents/Salesforce/Test/src/triggers/AccountTest.trigger",
+		"/C/Users/Samuelm/AppData/Roaming/Sublime Text 3/Packages/User/mavensmate.sublime-settings"
+	],
+	"find":
+	{
+		"height": 21.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"auto_complet",
+			"keys",
+			"ignored"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/pages/ApexEmployeeP.page",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								477,
+								477
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 117.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/pages/AS1_customers.page",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1402,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1402,
+								1402
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.MavensMate-OutputPanel":
+	{
+		"height": 88.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "Test.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 194.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

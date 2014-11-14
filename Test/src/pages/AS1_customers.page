@@ -1,0 +1,25 @@
+<apex:page controller="MyController">
+<apex:sectionHeader title="AS1 Customers" subtitle="Home">
+    <apex:image url="{!$Resource.logo}" width="100" height="100"/>        
+</apex:sectionHeader>
+    <apex:form >
+        <apex:pageBlock id="custId" title="Edit {!Customer.Name} ">
+            <apex:pageMessages />
+            <apex:actionStatus startText="Record Succesfully Saved" id="save-status"/>            
+            <apex:pageBlockButtons location="top" >
+                <apex:commandButton value="Save" action="{!save}" status="save-status" reRender="custId"/>                
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection >               
+                <apex:inputField value="{!Customer.Name}"/>
+                <apex:inputField value="{!Customer.Address__c}"/>
+                <apex:outputField value="{!Customer.Age__c}"/>
+                <apex:inputField value="{!Customer.NIC_Number__c}"/>
+                <apex:outputField value="{!Customer.Passport_Number__c}"/>
+                <apex:outputField value="{!Customer.Country__c}"/>    
+                <apex:outputField value="{!Customer.Maximum_Budget__c}"/>    
+                <apex:outputField value="{!Customer.Quotations__c}"/> 
+                <apex:outputField value="{!Customer.Currency__c}"/>  
+            </apex:pageBlockSection>           
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

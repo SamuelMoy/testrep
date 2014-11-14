@@ -1,0 +1,19 @@
+{
+    "username": "samuel.moyson@gmail.com", 
+    "environment": "developer", 
+    "project_name": "Test", 
+    "workspace": "C:\\Users\\Samuelm\\Documents\\Salesforce", 
+    "org_url": "", 
+    "namespace": "", 
+    "id": "I4RXWP2EEONY8C21Q5QM0VH5GSH8XJN2", 
+    "metadata_container": "1dcw00000008zJPAAY", 
+    "subscription": [
+        "ApexClass", 
+        "ApexComponent", 
+        "ApexPage", 
+        "ApexTrigger", 
+        "StaticResource", 
+        "CustomObject", 
+        "Profile"
+    ]
+}

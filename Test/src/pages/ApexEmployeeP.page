@@ -1,0 +1,37 @@
+<apex:page standardController="Employee__c" showHeader="true" sidebar="true">
+<apex:includeScript value="{!$Resource.jQuery}"/>
+<script>
+	j$ = jQuery.noConflict();
+	j$(document).ready(function() {
+		j$('[id*=calcMonth]').click(function() {  			
+  			var salaryday = j$('[span*=salaryday]').text();
+  			var salary = Number(salaryday.replace(/[€,]+/g,""));
+  			var nodays = j$('[id*=nodays]').val();
+  			alert(salary);
+		});
+ 	});
+
+	
+</script>
+	<apex:sectionHeader title="Employee" />
+	<apex:form >
+		<apex:pageBlock title="Financial">
+			<apex:pageMessages />
+			<apex:pageBlockButtons location="top">
+				
+			</apex:pageBlockButtons>
+			<apex:pageBlockSection title="Calculate Salary" collapsible="false">						
+				<apex:outputField value="{!Employee__c.Name}"/><br />
+	            <apex:outputField value="{!Employee__c.Salary__c}" id="salaryday" /><br />
+	            <apex:inputField value="{!Employee__c.No_of_Days__c}" id="nodays" /><br />
+	            <apex:outputField value="{!Employee__c.Salary_per_month__c}"/>
+	            <apex:commandButton value="Calculate Salary per Month" id="calcMonth"/>
+		    </apex:pageBlockSection>
+			<apex:pageBlockSection title="Calculate Bonus" collapsible="false">	
+				<apex:inputField value="{!Employee__c.Bonus__c}"/><br />
+		        <apex:outputField value="{!Employee__c.Total_Salary_per_Month__c}"/>
+		        <apex:commandButton value="Calculate Total Salary per Month" id="calcTotalMonth"/>
+			</apex:pageBlockSection>
+		</apex:pageBlock>
+	</apex:form>
+</apex:page>

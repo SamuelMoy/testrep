@@ -1,0 +1,39 @@
+{
+	"folders":
+	[
+		{
+			"folder_exclude_patterns":
+			[
+				"config/.symbols"
+			],
+			"follow_symlinks": true,
+			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\"
+		}
+	],
+	"settings":
+	{
+		"auto_complete_triggers":
+		[
+			{
+				"characters": ".",
+				"selector": "source - comment"
+			},
+			{
+				"characters": ":",
+				"selector": "text.html - comment"
+			},
+			{
+				"characters": "<",
+				"selector": "text.html - comment"
+			},
+			{
+				"characters": " ",
+				"selector": "text.html - comment"
+			}
+		]
+	}
+}

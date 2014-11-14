@@ -1,0 +1,75 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "ContactAndLeadSearch", 
+    "tableDeclaration": {
+        "type": "ContactAndLeadSearch", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 27, 
+            "line": 1
+        }, 
+        "name": "ContactAndLeadSearch"
+    }, 
+    "key": "01pw0000003kMVJAA2", 
+    "variables": [
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 66, 
+                "line": 2
+            }, 
+            "name": "search"
+        }, 
+        {
+            "type": "Lead", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 8, 
+                "line": 3
+            }, 
+            "name": "lead"
+        }, 
+        {
+            "type": "Contact", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 11, 
+                "line": 4
+            }, 
+            "name": "contact"
+        }
+    ], 
+    "id": "01pw0000003kMVJAA2", 
+    "methods": [
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "searchContactsAndLeads", 
+            "parameters": [
+                {
+                    "type": "String", 
+                    "name": "search"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 36, 
+                "line": 2
+            }, 
+            "returnType": "LIST", 
+            "type": null
+        }
+    ]
+}
