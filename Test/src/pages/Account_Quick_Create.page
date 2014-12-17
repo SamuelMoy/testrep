@@ -1,3 +1,0 @@
-<apex:page >
-  <flow:interview name="Your_Flow" />
-</apex:page>
