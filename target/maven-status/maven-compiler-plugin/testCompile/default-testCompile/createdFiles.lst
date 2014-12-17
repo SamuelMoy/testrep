@@ -1,0 +1,8 @@
+com\saucelabs\appium\MobileFindJavaTest.class
+com\saucelabs\appium\SafariTest.class
+com\saucelabs\appium\AndroidTest.class
+com\saucelabs\appium\AndroidWebViewTest.class
+com\saucelabs\appium\AndroidContactsTest.class
+com\saucelabs\appium\UICatalogTest.class
+com\saucelabs\appium\SauceTest.class
+com\saucelabs\appium\SimpleTest.class
